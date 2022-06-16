@@ -98,7 +98,8 @@ html, body{
 }
 .header {
 	@media (max-width:479px){
-		min-height: 70px;
+		max-height: 70px;
+		
 	}
 	position: absolute;	
 	top: 0;
@@ -122,6 +123,10 @@ html, body{
 		color: #0c3f02;
 		text-shadow:#ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
 		padding: 10px 0px 20px 0px;
+		@media (max-width:479px){
+			font-size: 30px;
+			letter-spacing: 0em;
+		}
 		//box-shadow: inset 12px 25px 15px #666;
 		
 
