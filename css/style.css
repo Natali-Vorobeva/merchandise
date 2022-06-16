@@ -91,7 +91,7 @@ h6 {
 html, body {
   position: relative;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background: url("../img/fon.jpg");
+  background: url("../img/fon.png");
   height: 100%;
 }
 
@@ -893,7 +893,7 @@ html, body {
   transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
   -webkit-transform: rotate(-2deg);
           transform: rotate(-2deg);
-  background: url("../img/mask2.jpg");
+  background: url("../img/mask2.png");
 }
 .mask__img-rotate-1:hover > img {
   -webkit-animation: show-t-shirt 0.5s ease-out;
