@@ -709,6 +709,10 @@ html, body {
       -ms-flex-pack: end;
           justify-content: end;
 }
+.pin-icon__text > span {
+  padding: 20px 0px 0px 0px;
+}
+
 .shopper__column {
   display: -webkit-box;
   display: -ms-flexbox;

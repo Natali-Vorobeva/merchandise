@@ -625,6 +625,10 @@ html, body{
 		justify-content: end;
 	}
 	&__text {
+		//margin: 20px 10px 0px 0px;
+		&>span{
+			padding: 20px 0px 0px 0px;	
+		}	
 		
 }
 }
