@@ -175,17 +175,21 @@ html, body {
 }
 
 .main {
-  position: relative;
+ position: relative;
   padding: 140px 0px 0px 0px;
+  
+  
 }
 .main__page {
   min-height: 100vh;
   background-color: #e9e6e6;
+  
 }
 .main__image {
   position: relative;
   text-align: center;
   padding: 0px 0px 0px 0px;
+  margin: auto;
 }
 .main__image::after {
   content: "";
