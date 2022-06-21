@@ -94,29 +94,11 @@ html, body{
 	margin: 0px auto;
 	position: relative;
 	background-color: #fff;
-	@media (max-width:479px){
-		width: 100vw;
-	}
 	//position: relative;
 }
 .header {
 	@media (max-width:479px){
-		max-height: 80px;
-		display: flex; 
-		justify-content: space-between;
-		
-		&>h1 {
-			display: flex;
-			align-items: center;
-			margin: 0px 0px 0px 10px;
-			font-size: 58px;
-		}
-		&>h2 {
-			display: flex;
-			align-items: center;
-			padding: 0px 10px 0px 0px;
-			font-size: 28px;
-		}
+		max-height: 70px;
 		
 	}
 	position: absolute;	
@@ -184,35 +166,19 @@ html, body{
 	//flex-direction: column;
 	position: relative;	
 	padding: 140px 0px 0px 0px;
-	// @media (max-width:479px){
-	// 	width: 100vw;
-	// }
 	&__page{
 		//padding: 0px 0px 40px 0px;
 		min-height: 100vh;
 		background-color: #e9e6e6;
-		margin: 0px auto;	
-		// @media (max-width:479px){
-		// 	margin: 0;
-		// }
-		// @media (max-width:479px){
-		// 	width: 100vw;
-		// }
 
 	}
 	&__image {
 		position: relative;
 		text-align: center;
 		padding: 0px 0px 0px 0px;
-		// @media (max-width:479px){
-		// 	width: 100vw;
-		// }
-		// @media (max-width:479px){
-		// 	width: 100%;
-		// 	justify-items: center;
-		// 	text-align: center;
-		// }
-		//min-height: 100%;		
+		//min-height: 100%;
+		
+		
 		&::after{
 			content: '';
 			background-color: #205038;
@@ -249,6 +215,7 @@ html, body{
 }
 .image{
 	background: rgb(233, 230, 230);
+
 	&__wrapper3d {			
 		&::after{
 			content: '';
@@ -274,6 +241,7 @@ html, body{
 			z-index: 20;
 			box-shadow: inset 65px 20px 25px rgb(226, 248, 237);
 		}
+
 		&>img{
 			position: relative;				
 			top:0px;	
@@ -300,18 +268,8 @@ html, body{
 				} 		
 		}		
 		}
-		&__block {
-			width: 1000px;
-			//margin: 0px auto;
-			@media (max-width:479px){
-				
-			}
-			
-		}	
-		
-}
-.block{
-	&__text {
+	
+		&__text {
 			position: relative;
 			font-size: 30px;
 			line-height: 1.5em;
