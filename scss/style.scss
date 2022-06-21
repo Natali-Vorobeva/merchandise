@@ -79,28 +79,30 @@ html, body{
 	//position: relative;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;	
 	background:url('../img/fon.png');
-	
-	height: 100%;
+	//height: 100%;
 }
 ._container{	
-	padding: 20px;
+	
 }
 .wrapper {
+	background:url('../img/fon.png');
 	overflow: hidden;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	width: 1000px;
 	margin: 0px auto;
+
 	position: relative;
 	background-color: #fff;
 	position: relative;
+	&__body{
+		margin: 0px 20px;
+		//padding: 0px 20px;
+	}
 }
 .header {
-	@media (max-width:479px){
-		max-height: 70px;
-		
-	}
+	//margin: 0px 10px;	
 	position: absolute;	
 	top: 0;
 	left: 0;
@@ -166,10 +168,12 @@ html, body{
 	//flex-direction: column;
 	position: relative;	
 	padding: 140px 0px 0px 0px;
+	//max-width: 62.5rem;
+	background-color: #e9e6e6;
 	&__page{
 		//padding: 0px 0px 40px 0px;
 		min-height: 100vh;
-		background-color: #e9e6e6;
+		
 
 	}
 	&__image {
@@ -206,6 +210,8 @@ html, body{
 	}
 	&__body {
 		//margin: 0px 0px 30px 0px;
+		background: #fff;
+		
 	}
 	&__body-title {
 		padding: 30px 0px;
@@ -300,7 +306,7 @@ html, body{
 		}	
 }
 .flex-body {
-
+	
 	&__row {
 			
 	}
@@ -310,6 +316,7 @@ html, body{
 	}
 
 	&__hoody {
+		
 	}
 }
 .t-shirt {
@@ -433,10 +440,12 @@ html, body{
 	}
 }
 .flex-body {
-	&__hoody {
+	
+	&__hoody {background-color: #fff;
 	}
 }
 .hoody {	
+	
 	&__column {	
 		display: flex;	
 	}
@@ -821,6 +830,6 @@ html, body{
 	padding: 20px 0px;
 	box-shadow: 15px 12px 25px 15px #666;
 	border-radius: 5px;
-	background-color: #fff;
+	background: rgb(247, 245, 245);
 	
 }
