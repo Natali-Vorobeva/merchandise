@@ -96,11 +96,7 @@ html, body{
 	background-color: #fff;
 	position: relative;
 }
-.header {
-	@media (max-width:479px){
-		max-height: 70px;
-		
-	}
+.header {	
 	position: absolute;	
 	top: 0;
 	left: 0;
@@ -110,29 +106,22 @@ html, body{
 	z-index: 100;
 	background-color: #fff;
 	margin: 0px auto;
-	height: 90px;
+	height: 110px;
 	margin: 20px 0px;
 	text-align: center;
 	box-shadow: 15px 12px 25px 15px #666;
 	border-radius: 5px;
 	&>h1{
 		font-size: 38px;
-		line-height: 0.8em;
+		//line-height: 0.8em;
 		font-weight: bold;
 		letter-spacing: 0.2em;
 		color: #0c3f02;
 		text-shadow:#ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
 		padding: 10px 0px 20px 0px;
-		@media (max-width:479px){
-			font-size: 30px;
-			letter-spacing: 0em;
-		}
-		//box-shadow: inset 12px 25px 15px #666;
-		
-
 	}
 	&>h2{
-		font-size: 17px;
+		font-size: 27px;
 		line-height: 0.8em;
 		font-weight: bold;
 		letter-spacing: 0.2em;
@@ -144,6 +133,7 @@ html, body{
 }
 ._title {	
 	font-size: 46px;
+	//font-size: calc(46px + (146 - 46) * ((100vw - 320px) / (1000 - 320)));
 	text-shadow:rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(145, 46, 46, 0.298) -3px -3px 0px;
 	letter-spacing: 0.05em;
 	line-height: normal;
@@ -159,6 +149,7 @@ html, body{
 	&>span {
 		font-weight: 800;
 		font-size: 27px;
+		//font-size: calc(35px + (27 - 35) * ((100vw - 320px) / (1000px - 320)));
 	}
 }
 .main {
@@ -281,7 +272,8 @@ html, body{
 			animation: move-text 2s ease-in-out 0.8s ;
 			animation-fill-mode: forwards;
 			z-index: 22;
-			//box-shadow: inset 5px 5px #fff;
+			margin-top: -40px;
+			
 			background: linear-gradient(180deg, rgba(250, 248, 248, 0.9), rgba(241, 238, 238, 0) 20%);
 			@keyframes move-text {
 				0% {
