@@ -177,6 +177,8 @@ html, body {
 .main {
   position: relative;
   padding: 140px 0px 0px 0px;
+  
+  
 }
 .main__page {
   min-height: 100vh;
@@ -226,7 +228,7 @@ html, body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  top: -40px;
+  top: 140px;
   left: 650px;
   z-index: 20;
   -webkit-box-shadow: inset 75px 40px 55px rgb(203, 235, 224);
@@ -291,6 +293,7 @@ html, body {
   line-height: 1.5em;
   font-weight: 600;
   color: #0d4202;
+  
   text-shadow: #ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
   font-family: Geneva, Tahoma, sans-serif;
   -webkit-animation-name: move-text;
