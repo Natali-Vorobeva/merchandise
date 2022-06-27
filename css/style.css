@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
 * {
   padding: 0;
   margin: 0;
@@ -261,7 +262,7 @@ html, body {
   height: 190px;
   border-radius: 50%;
   top: 600px;
-  left: 170px;
+  left: 130px;
   z-index: 20;
   -webkit-box-shadow: inset 65px 20px 25px rgb(226, 248, 237);
           box-shadow: inset 65px 20px 25px rgb(226, 248, 237);
@@ -285,11 +286,11 @@ html, body {
   }
   80% {
     left: 0;
-    opacity: 1;
+    opacity: 0.5;
   }
   100% {
     left: 0;
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 @keyframes show-left {
@@ -299,16 +300,17 @@ html, body {
   }
   80% {
     left: 0;
-    opacity: 1;
+    opacity: 0.5;
   }
   100% {
     left: 0;
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .image__text {
   position: relative;
   font-size: 40px;
+  padding: 10px 0px;
   line-height: 0.1em;
   font-weight: 600;
   color: #082c01;
@@ -330,7 +332,7 @@ html, body {
     line-height: 0.1em;
   }
   60% {
-    opacity: 0.3;
+    opacity: 0.1;
     top: 0px;
     line-height: 1em;
   }
@@ -346,7 +348,7 @@ html, body {
     line-height: 0.1em;
   }
   60% {
-    opacity: 0.3;
+    opacity: 0.1;
     top: 0px;
     line-height: 1em;
   }
